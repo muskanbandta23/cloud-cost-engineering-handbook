@@ -529,13 +529,13 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
     </table>
 
     <div class="meth-grid zd-reveal d2">
-      <div class="meth-cell"><b>4</b><span>spend categories</span></div>
-      <div class="meth-cell"><b>4</b><span>optimization levers</span></div>
-      <div class="meth-cell"><b>3</b><span>operating phases</span></div>
-      <div class="meth-cell"><b>4</b><span>delivery stages</span></div>
-      <div class="meth-cell"><b>6</b><span>named frameworks</span></div>
+      <div class="meth-cell"><b>3</b><span>clouds governed</span></div>
+      <div class="meth-cell"><b>450+</b><span>cost &amp; governance rules</span></div>
+      <div class="meth-cell"><b>380+</b><span>resource types tracked</span></div>
+      <div class="meth-cell"><b>8</b><span>rule categories</span></div>
+      <div class="meth-cell"><b>SOC 2</b><span>+ iso 27001 certified</span></div>
     </div>
-    <p class="anno zd-reveal d3" style="margin-top:22px">Named frameworks coined in this handbook: the Competency Gap Model, the Dual Gate Model, the Observe-Analyze-Resize-Validate loop, the Commitment Fit Score, the Six-Pillar Cost Allocation Taxonomy, and the Discipline Retention Loop.</p>
+    <p class="anno zd-reveal d3" style="margin-top:22px">The practices in this handbook are what ZopNight automates: it applies 450+ rules across AWS, GCP and Azure and reconciles every finding against your actual bill. Teams report ~30% average cloud cost cuts (<a href="https://zop.dev/zopnight">zop.dev/zopnight</a>).</p>
   </div>
 </section>
 
@@ -902,20 +902,20 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
     <div class="ch-head zd-reveal">
       <div class="ch-no">04</div>
       <div>
-        <p class="sheet-tag">why cost culture fails without behavioral anchors</p>
-        <h2>Make cost a delivery gate, not a report.</h2>
-        <p class="lead-anno">Dashboards go unused because no workflow step requires anyone to act on them. <em>Visibility without obligation changes nothing.</em> The fix is structural: build the pipeline left to right.</p>
+        <p class="sheet-tag">how zopnight keeps cloud cost under control</p>
+        <h2>Cost control that runs as a loop, not a report.</h2>
+        <p class="lead-anno">Dashboards go unused because no one is obligated to act on them. <em>Visibility without action changes nothing.</em> ZopNight closes that gap with a continuous loop — detect, classify, remediate, verify — every finding reconciled against your actual bill.</p>
       </div>
     </div>
 
     <figure class="plate zd-reveal" id="plate04">
       <figcaption class="plate-head">
-        <span class="plate-no">PLATE 04</span><span class="plate-name">· Four-Stage Cost-Aware Delivery Pipeline — Plan View</span>
+        <span class="plate-no">PLATE 04</span><span class="plate-name">· ZopNight CDCR Loop — Plan View</span>
         <button class="zd-btn ghost sm ann-toggle" type="button" aria-pressed="true">Annotations ON</button>
       </figcaption>
       <div class="plate-body">
         <div class="plate-fig">
-          <svg viewBox="0 0 920 500" role="img" aria-label="Plan drawing of a pipeline, Code to Estimate to Deploy to Monitor, with a blocking gate before deploy and a sprint-cadence return arm">
+          <svg viewBox="0 0 920 500" role="img" aria-label="Plan drawing of the ZopNight CDCR loop: Detect, Classify, Remediate, Verify, with an approval gate before Remediate and a continuous return arm from Verify back to Detect">
             <defs>
               <marker id="arw3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--bp-line)"/></marker>
               <marker id="arwO3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--zop-orange)"/></marker>
@@ -923,40 +923,40 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
             <!-- stages -->
             <g class="hot" data-ann="p4-1" tabindex="0">
               <rect x="40" y="120" width="180" height="96" fill="none" stroke="var(--bp-line)" stroke-width="2" class="dw" pathLength="1"/>
-              <text x="58" y="156" class="tl" font-size="14">CODE</text>
-              <text x="58" y="180" class="ts" font-size="10">annotate resource</text>
-              <text x="58" y="196" class="ts" font-size="10">requests + ownership</text>
+              <text x="58" y="156" class="tl" font-size="14">DETECT</text>
+              <text x="58" y="180" class="ts" font-size="10">scan aws · gcp · azure</text>
+              <text x="58" y="196" class="ts" font-size="10">450+ waste &amp; risk rules</text>
             </g>
             <g class="hot" data-ann="p4-2" tabindex="0">
               <rect x="270" y="120" width="180" height="96" fill="none" stroke="var(--bp-line)" stroke-width="2" class="dw s2" pathLength="1"/>
-              <text x="288" y="156" class="tl" font-size="14">ESTIMATE</text>
-              <text x="288" y="180" class="ts" font-size="10">projected $/mo on</text>
-              <text x="288" y="196" class="ts" font-size="10">the PR, pre-approval</text>
+              <text x="288" y="156" class="tl" font-size="14">CLASSIFY</text>
+              <text x="288" y="180" class="ts" font-size="10">reconcile vs actual bill</text>
+              <text x="288" y="196" class="ts" font-size="10">rank by cost impact</text>
             </g>
             <g class="hot" data-ann="p4-3" tabindex="0">
               <rect x="500" y="120" width="180" height="96" fill="none" stroke="var(--zop-orange)" stroke-width="2" class="dw s3" pathLength="1"/>
-              <text x="518" y="156" class="tl ta" font-size="14">DEPLOY</text>
-              <text x="518" y="180" class="ts" font-size="10">estimate is a</text>
-              <text x="518" y="196" class="ts" font-size="10">pre-condition, not post</text>
+              <text x="518" y="156" class="tl ta" font-size="14">REMEDIATE</text>
+              <text x="518" y="180" class="ts" font-size="10">schedule · rightsize</text>
+              <text x="518" y="196" class="ts" font-size="10">autoscale · safe auto-fix</text>
             </g>
             <g class="hot" data-ann="p4-4" tabindex="0">
               <rect x="730" y="120" width="180" height="96" fill="none" stroke="var(--bp-line)" stroke-width="2" class="dw s4" pathLength="1"/>
-              <text x="748" y="156" class="tl" font-size="14">MONITOR</text>
-              <text x="748" y="180" class="ts" font-size="10">live vs estimate ·</text>
-              <text x="748" y="196" class="ts" font-size="10">drift alerts in-sprint</text>
+              <text x="748" y="156" class="tl" font-size="14">VERIFY</text>
+              <text x="748" y="180" class="ts" font-size="10">confirm the saving</text>
+              <text x="748" y="196" class="ts" font-size="10">audit trail · loop back</text>
             </g>
             <!-- flow arrows -->
             <line x1="220" y1="168" x2="268" y2="168" stroke="var(--bp-line)" stroke-width="1.5" class="fd" marker-end="url(#arw3)"/>
             <!-- gate before deploy -->
             <g class="fd">
               <line x1="475" y1="108" x2="475" y2="228" stroke="var(--zop-orange)" stroke-width="1.5" stroke-dasharray="5 5"/>
-              <text x="452" y="252" class="ts ta" font-size="9.5">BLOCKING GATE</text>
+              <text x="452" y="252" class="ts ta" font-size="9.5">APPROVAL GATE</text>
             </g>
             <line x1="450" y1="168" x2="498" y2="168" stroke="var(--zop-orange)" stroke-width="1.5" class="fd" marker-end="url(#arwO3)"/>
             <line x1="680" y1="168" x2="728" y2="168" stroke="var(--bp-line)" stroke-width="1.5" class="fd" marker-end="url(#arw3)"/>
             <!-- sprint return arm -->
             <path d="M820,216 C820,300 500,300 300,300 C180,300 120,260 130,220" fill="none" stroke="var(--zop-orange)" stroke-width="1.8" stroke-dasharray="6 5" class="fd" marker-end="url(#arwO3)"/>
-            <text x="360" y="292" class="ts ta" font-size="10">SPRINT-CLOSE VARIANCE · ESTIMATE VS ACTUAL</text>
+            <text x="360" y="292" class="ts ta" font-size="10">CONTINUOUS LOOP · VERIFY FEEDS THE NEXT DETECT</text>
             <!-- left-to-right rule dimension -->
             <g class="fd" stroke="var(--bp-line)">
               <line x1="40" y1="360" x2="910" y2="360"/>
@@ -964,7 +964,7 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
               <path d="M50,356 50,364 40,360 Z" fill="var(--bp-line)" stroke="none"/>
               <path d="M900,356 900,364 910,360 Z" fill="var(--bp-line)" stroke="none"/>
             </g>
-            <text x="300" y="388" class="ts" font-size="11">THE LEFT-TO-RIGHT RULE · BUILD EACH STAGE ONLY AFTER THE PREVIOUS ONE IS RELIABLE</text>
+            <text x="300" y="388" class="ts" font-size="11">EVERY FINDING RECONCILED AGAINST YOUR ACTUAL BILL BEFORE IT REACHES YOU</text>
             <!-- callouts -->
             <g class="ann-g ad1" data-ann="p4-2">
               <line x1="360" y1="120" x2="360" y2="88" stroke="var(--zop-orange)" stroke-dasharray="4 4"/>
@@ -984,13 +984,13 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
           </svg>
         </div>
         <aside class="plate-anns">
-          <div class="ann-item" data-ann="p4-2"><span class="ann-n">1</span><p><strong>Estimate is the only place to change a decision cheaply.</strong> Projected cost becomes a PR artifact, the same as a test result, before a reviewer approves.</p></div>
-          <div class="ann-item" data-ann="p4-3"><span class="ann-n">2</span><p><strong>Deploy without a gate lets expensive configs reach production,</strong> where reversing them costs engineering time on top of the spend. Make the estimate blocking.</p></div>
-          <div class="ann-item" data-ann="p4-4"><span class="ann-n">3</span><p><strong>Monitor only works with sprint linkage.</strong> Alerts fired outside cadence produce no action — the team has no scheduled moment to respond.</p></div>
+          <div class="ann-item" data-ann="p4-2"><span class="ann-n">1</span><p><strong>Every finding is reconciled against your actual bill.</strong> ZopNight checks each result against what you really pay before it reaches you — not a dashboard estimate.</p></div>
+          <div class="ann-item" data-ann="p4-3"><span class="ann-n">2</span><p><strong>Remediation runs only on certified findings.</strong> It sits behind a precondition and approval gate, and never changes production without explicit per-environment opt-in.</p></div>
+          <div class="ann-item" data-ann="p4-4"><span class="ann-n">3</span><p><strong>Verify closes the loop.</strong> It confirms the saving landed, writes an audit entry (actor, timestamp, cost delta), and feeds the next detection cycle.</p></div>
         </aside>
       </div>
       <div class="plate-foot">
-        <p class="plate-note">Build left to right · instrument monitoring first and drift goes undetected until the monthly bill</p>
+        <p class="plate-note">Continuous loop · verify feeds detect · every action logged with actor, timestamp and cost delta</p>
         <table class="tblock"><tr><td><b>Plate</b>04</td><td><b>Rev</b>2026.07</td></tr></table>
       </div>
     </figure>
@@ -998,25 +998,25 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
     <div class="duo zd-reveal d1">
       <div class="panel bad" data-fig="FIG 4.1a · LOW MATURITY">
         <h4>Low maturity</h4>
-        <p class="sub">cost conversation after the bill</p>
+        <p class="sub">waste found by hand, after the bill</p>
         <dl>
-          <div><dt>When cost appears</dt><dd>Monthly reconciliation</dd></div>
+          <div><dt>When waste is caught</dt><dd>Monthly, if at all</dd></div>
           <div><dt>Owner</dt><dd>A finance contact</dd></div>
-          <div><dt>Signal</dt><dd>No pre-PR estimate exists</dd></div>
+          <div><dt>Signal</dt><dd>Cleanup is manual and rare</dd></div>
         </dl>
       </div>
       <div class="panel good" data-fig="FIG 4.1b · HIGH MATURITY">
         <h4>High maturity</h4>
-        <p class="sub">cost surfaces before the merge</p>
+        <p class="sub">waste remediated continuously</p>
         <dl>
-          <div><dt>When cost appears</dt><dd>On the pull request</dd></div>
-          <div><dt>Owner</dt><dd>The deploying engineer</dd></div>
-          <div><dt>Signal</dt><dd>Estimate is a PR artifact</dd></div>
+          <div><dt>When waste is caught</dt><dd>Detected in the loop, daily</dd></div>
+          <div><dt>Owner</dt><dd>Automated, on approval</dd></div>
+          <div><dt>Signal</dt><dd>Findings reconciled vs actual bill</dd></div>
         </dl>
       </div>
     </div>
 
-    <p class="anno zd-reveal d2">The five habits form the <strong>Discipline Retention Loop</strong>: accurate estimates make retrospectives meaningful, retrospectives surface tagging gaps, gaps expose missing thresholds, and thresholds give the quarterly self-assessment a concrete target to close.</p>
+    <p class="anno zd-reveal d2">The five habits form a <strong>reinforcing loop</strong>: accurate estimates make retrospectives meaningful, retrospectives surface tagging gaps, gaps expose missing thresholds, and thresholds give the quarterly self-assessment a concrete target to close.</p>
     <table class="spec zd-reveal d2">
       <caption>Table 4.3 · Five habits that sustain discipline</caption>
       <thead><tr><th>Habit</th><th>Cadence</th><th>What it prevents</th></tr></thead>
@@ -1029,7 +1029,7 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
       </tbody>
     </table>
     <div class="callq zd-reveal d3">
-      <p>Start this sprint with the code stage. Everything else depends on it.</p>
+      <p>Start with detection: connect your accounts read-only and let the loop surface what’s leaking.</p>
       <footer>chapter 04 · where to start</footer>
     </div>
   </div>
@@ -1061,8 +1061,8 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
         <p class="anno">Optimization fails without an accountability layer. Six-pillar tagging makes Inform functional; showback precedes chargeback; the loop closes on one shared report.</p>
       </div>
       <div class="zd-reveal d4">
-        <div class="dim"><span class="dl l"></span><b>4 stages<small>code · estimate · deploy · monitor</small></b><span class="dl r"></span></div>
-        <p class="anno">Cost is a delivery gate, not a report. Build the pipeline left to right; the estimate stage is the only place to change a decision before it costs money.</p>
+        <div class="dim"><span class="dl l"></span><b>CDCR<small>detect · classify · remediate · verify</small></b><span class="dl r"></span></div>
+        <p class="anno">Cost control runs as a continuous loop. ZopNight reconciles every finding against your actual bill, remediates safely on approval, and verifies the saving landed.</p>
       </div>
     </div>
     <div class="callq zd-reveal">
