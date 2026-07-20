@@ -202,6 +202,7 @@ h1,h2,h3{font-family:var(--font);font-weight:600;line-height:1.06;letter-spacing
 .dim .dl.r::after{content:'';position:absolute;right:2px;top:-3.5px;border:4px solid transparent;border-left:8px solid currentColor}
 .dim b{padding:0 16px;font-weight:600;font-size:clamp(24px,3.4vw,42px);letter-spacing:-.02em;white-space:nowrap}
 .dim small{display:block;font-size:10px;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--bp-mut);text-align:center;margin-top:2px}
+.dim-cap{font-family:var(--mono);font-size:10px;font-weight:400;letter-spacing:.14em;text-transform:uppercase;color:var(--bp-mut);text-align:center;max-width:34ch;margin:8px auto 0;line-height:1.5}
 .dim.big b{font-size:clamp(40px,7vw,84px)}
 .dim.acc b{color:var(--zop-orange)}
 
@@ -1044,19 +1045,23 @@ svg .hot.hl{filter:drop-shadow(0 0 5px var(--zop-orange))}
     </div>
     <div class="recap-grid">
       <div class="zd-reveal d1">
-        <div class="dim acc"><span class="dl l"></span><b>4<small>categories · compute, storage, network, managed</small></b><span class="dl r"></span></div>
+        <div class="dim acc"><span class="dl l"></span><b>4</b><span class="dl r"></span></div>
+        <p class="dim-cap">categories · compute, storage, network, managed</p>
         <p class="anno">Every bill traces back to four. Category-specific interventions pay back faster because the root cause and the fix are both specific. Start with whichever owns the largest share.</p>
       </div>
       <div class="zd-reveal d2">
-        <div class="dim"><span class="dl l"></span><b>OARV<small>observe · analyze · resize · validate</small></b><span class="dl r"></span></div>
+        <div class="dim"><span class="dl l"></span><b>OARV</b><span class="dl r"></span></div>
+        <p class="dim-cap">observe · analyze · resize · validate</p>
         <p class="anno">Rightsizing is a standing loop, not a one-time audit. Skip validate and workloads regress within 60 days. Five quick wins ship in a single sprint.</p>
       </div>
       <div class="zd-reveal d3">
-        <div class="dim"><span class="dl l"></span><b>3 phases<small>inform · optimize · operate · three teams</small></b><span class="dl r"></span></div>
+        <div class="dim"><span class="dl l"></span><b>3 phases</b><span class="dl r"></span></div>
+        <p class="dim-cap">inform · optimize · operate · three teams</p>
         <p class="anno">Optimization fails without an accountability layer. Six-pillar tagging makes Inform functional; showback precedes chargeback; the loop closes on one shared report.</p>
       </div>
       <div class="zd-reveal d4">
-        <div class="dim"><span class="dl l"></span><b>CDCR<small>detect · classify · remediate · verify</small></b><span class="dl r"></span></div>
+        <div class="dim"><span class="dl l"></span><b>CDCR</b><span class="dl r"></span></div>
+        <p class="dim-cap">detect · classify · remediate · verify</p>
         <p class="anno">Cost control runs as a continuous loop: reconcile every finding against your actual bill, remediate safely on approval, and verify the saving landed.</p>
       </div>
     </div>
